@@ -1,0 +1,50 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <form action="/new-loan" method="post" style="margin-top: 30px;">
+        <!-- <div>
+            <input type="text" name="id" value="<%=loan.id%>">
+        </div> -->
+       
+        <div>
+            <label for="" class="form-label">Amount Desired</label>
+            <input type="text" class="form-control" name="amount" value="<%=loan.amount%>">
+        </div>
+
+        <div>
+            <label for="" class="form-label">Loan Type</label>
+            <select name="loantype" class="form-control" value="<%=loan.loantype%>">
+                <option value="Long-term loan">Long-term loan</option>
+                <option value="Short-term loan">Short-term loan</option>
+              </select>
+        </div>
+
+        <div>
+            <label for="" class="form-label">Intrest Rate</label>
+            <select name="intrest" class="form-control" value="<%=loan.intrest%>">
+                <option name="intrest" value="10%">10%</option>
+                <option name="intrest" value="15%">15%</option>
+                <option name="intrest" value="20%">20%</option>
+                <option name="intrest" value="50%">50%</option>
+             </select>
+         </div>
+
+        <div>
+            <label for="" class="form-label">Date</label>
+            <input type="date" name="time" class="form-control" value="<%=loan.time%>">
+        </div>
+
+        <input type="submit" value="submit">
+      </form> 
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

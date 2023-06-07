@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+   background-color: black;
+}
+
+/* .nan{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+} */
+
+:hover.ball{
+    background-color:black ;
+}
+.body{
+    background-image: url("images/loan.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bruno Ace';
+
+
+}
+.path{
+    background-image: url("images/nat.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.anime{
+    margin-bottom: 50px;
+    animation: animate 5s linear infinite;
+    color: rgb(167, 83, 167);
+    line-height: 70px;
+    text-shadow: 2px 2px black;
+    
+}
+
+.change{
+    background-image: url("images/how-can-you-follow-up-on-a-pending-job-offer-in-a-correct-way.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* .gwa{
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    height: 100vh;
+} */
+
+.container{
+    display: flex;
+    /* margin-top: 50px; */
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgb(141, 168, 168);
+}
+
+input:hover{
+    background-color: rgb(187, 178, 168);
+    border:5px black;
+}
+
+
+
+.button{
+    width: 97%;
+}
+
+.wa{
+    background-image: url(images/beach.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carter{
+    background-image: url('./images/identity-verification-blog.png');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.self{
+    /* border: 2px solid black; */
+    height: 400px;
+    /* width: 30%; */
+    padding-top: 20px;
+
+}
+
+.button{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.button:hover{
+    background-color: rgb(187, 178, 168);
+}
+/* 
+.wowo{
+    background-image:url("images/leaves.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+} */
+
+.b{
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate
+{
+    0%,18%,20%
+    {
+        color: black;
+        text-shadow: none;
+    }
+    18%,20%,30%{
+        color:rosybrown ;
+        text-shadow: 0 0 10px black,
+        0 0 20px rosybrown
+        0 0 40px rosybrown
+        0 0 80px rosybrown
+        0 0 160px rosybrown
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .anime{
+        font-size: 20px;
+    
+    }
+
+   
+    .b{
+        /* font-size: smaller; */
+    }
+
+    .k{
+        width: 100%;
+    }
+
+
+   
+  }

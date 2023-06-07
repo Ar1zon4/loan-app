@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="play.css">
+</head>
+<body class="wowo" >
+    <body  >
+        <h1 style="text-align: center;">Bank Details</h1>
+        <div class="container my-5 ">
+            <div class="row " >
+                <div  style="height: 350px;box-shadow: 3px 5px black; background-color: rgb(214, 214, 214);" >
+        <form action="/bank-details" method="post" style="margin-top: 30px;">
+            <div>
+                <label for="" class="form-label">Bank Name</label>
+            <!-- <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="bankname" placeholder="YourEmail"> -->
+            <select name="bankname">
+                <option value="Capricon Bank">Capricon Bank</option>
+                <option value="Nexus PLC">Nexus PLC</option>
+                <option value="Saturn Bank">Saturn Bank</option>
+                <option value="MetaPlus Bank">MetaPlus Bank</option>
+                <option value="Bank of Maryland">Bank of Maryland</option>
+                <option value="Bricks Bank">Bricks Bank</option>
+                <option value="O-Bills Digital Bank">O-Bills Digital Bank</option>
+                <option value="Jupiter PLC">Jupiter PLC</option>
+                
+
+              </select>
+            </div>
+            <div>
+                <label for="" class="form-label">Account Number</label>
+                <input type="number" class="form-control" name="accountnumber" placeholder="10 digit Account-Number">
+            </div>
+            <div>
+                <label for="" class="form-label">Account Type</label>
+                <select name="accounttype" id="">
+                  <option value="Savings Account">Savings Account</option>
+                  <option value="Current Account">Current Account</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="" class="form-label" >CVV</label>
+                <input type="number" class="form-control" name="cvv" placeholder="Your 3 digit CVV-pin">
+            </div>
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+    </div>
+    </div>
+    </body>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
